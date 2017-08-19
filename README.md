@@ -21,7 +21,7 @@ The basics go a little something like this:
 ```
 ```html
 <div id="container">
-	<div class="tabRow">
+	<div>
 		<div id="one" class="tab">One</div>
 		<div id="two" class="tab">Two</div>
 		<div id="three" class="tab">Three</div>
