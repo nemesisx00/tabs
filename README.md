@@ -13,7 +13,7 @@ There is a simple flex-based example in the example folder. Here's a [JSFiddle](
 
 The basics go a little something like this:
 ```html
-<script src="tabs.js"></script>
+<script src="tabs.js" defer></script>
 <script>
 	document.addEventListener('DOMContentLoaded', event => {
 		const myTabs = new Tabs('#container')
