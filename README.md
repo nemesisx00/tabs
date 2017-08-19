@@ -40,3 +40,7 @@ The basics go a little something like this:
 	</div>
 </div>
 ```
+
+### License ###
+
+Licensed under the ISC license. See the `LICENSE` file.
