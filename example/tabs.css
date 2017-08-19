@@ -1,0 +1,46 @@
+.tabs-container
+{
+	display: flex;
+	flex-direction: column;
+	
+	width: 70%;
+	height: 90vh;
+	margin: 0 auto;
+}
+
+.tabs-container .hidden { display: none; }
+.tabs-container .visible { }
+
+.tabs-container > div { flex-grow: 1; }
+.tabs-container > div.tabRow { flex-grow: 0; flex-shrink: 1; }
+
+.tabs-container .tabRow
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.tabs-container .tabRow .tab
+{
+	flex-grow: 0;
+	flex-shrink: 1;
+	
+	width: 50px;
+	height: 26px;
+	cursor: pointer;
+	padding-top: 4px;
+	text-align: center;
+	border: 1px solid #000;
+	
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+.tabs-container .tabRow .tab:first-child { border-right: 0px none; border-top-left-radius: 5px; border-bottom-left-radius: 5px; }
+.tabs-container .tabRow .tab:last-child { border-left: 0px none; border-top-right-radius: 5px; border-bottom-right-radius: 5px; }
+
+.tabs-container .tabRow .tab.active { background-color: #0001; }
+.tabs-container .tabRow .tab.inactive { background-color: #0003; }

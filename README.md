@@ -1,18 +1,42 @@
 # Tabs #
 
-I'll put real info in here soon.
+A self-contained pure Javascript implementation for a tabbed UI element.
 
-### What is this repository for? ###
+### Getting Started ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+Getting started is as simple as dropping `tabs.js` into a web context.
 
-### How do I get set up? ###
+For the time being, this library doesn't come with any prescribed styles
+as it is intended to focus on the mechanics rather than the presentation,
+but there is a simple flex-based example in the example folder.
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+The basics go a little something like this:
+```html
+<script src="tabs.js"></script>
+<script>
+	document.addEventListener('DOMContentLoaded', event => {
+		const myTabs = new Tabs('#container')
+	})
+</script>
+```
+```html
+<div id="container">
+	<div class="tabRow">
+		<div id="one" class="tab">One</div>
+		<div id="two" class="tab">Two</div>
+		<div id="three" class="tab">Three</div>
+	</div>
+	<div class="one">
+		<h1>I'm one!</h1>
+	</div>
+	<div class="two">
+		<h1>We're</h1>
+	</div>
+	<div class="three">
+		<h1>Who else but three?</h1>
+	</div>
+	<div class="two">
+		<h1>two!</h1>
+	</div>
+</div>
+```
