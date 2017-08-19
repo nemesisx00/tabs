@@ -6,17 +6,17 @@
 		
 		<link rel="stylesheet" href="tabs.css" />
 		
-		<script src="../tabs.js"></script>
+		<script src="../tabs.js" defer></script>
 		<script>
 			document.addEventListener('DOMContentLoaded', event => {
 				const myTabs = new Tabs('#container')
-				console.log(mytabs)
+				console.log(myTabs)
 			})
 		</script>
 	</head>
 	<body>
 		<div id="container">
-			<div class="tabRow">
+			<div>
 				<div id="one" class="tab">One</div>
 				<div id="two" class="tab">Two</div>
 				<div id="three" class="tab">Three</div>
