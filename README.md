@@ -9,7 +9,7 @@ Getting started is as simple as dropping `tabs.js` into a web context.
 For the time being, this library doesn't come with any prescribed styles
 as it is intended to focus on the mechanics rather than the presentation.
 
-There is a simple flex-based example in the example folder. Here's a [https://jsfiddle.net/NemesisX00/qn286b6L/](JSFiddle).
+There is a simple flex-based example in the example folder. Here's a [JSFiddle](https://jsfiddle.net/NemesisX00/qn286b6L/).
 
 The basics go a little something like this:
 ```html
