@@ -5,7 +5,7 @@ Created by: Peter Lunneberg
 Created on: 2017-08-18
 */
 
-let Tabs = (() => {
+const Tabs = (() => {
 	'use strict'
 	
 	let defaultOptions = {
