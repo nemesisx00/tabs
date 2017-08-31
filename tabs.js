@@ -3,6 +3,7 @@ A self-contained pure Javascript implementation for a tabbed UI element.
 
 Created by: Peter Lunneberg
 Created on: 2017-08-18
+Repository: https://bitbucket.org/nemesisx00/tabs
 */
 
 const Tabs = (() => {
